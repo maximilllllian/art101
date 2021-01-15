@@ -13,6 +13,6 @@ p {
   min-height: 200px;
   padding: 5px;
   margin: 5px;
-  border: solid 2px #444444;
+  border: dashed 2px #444444;
   font-size: 20px;
 }
