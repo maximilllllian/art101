@@ -1,0 +1,14 @@
+
+body {
+  background-color: #ff8585;
+}
+div {
+  background-color: #ffffff;
+  border: solid;
+}
+h2 {
+  border: inset solid;
+}
+p {
+  font-family: monospace;
+}
