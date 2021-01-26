@@ -1,4 +1,3 @@
-
 //define skateboard variables
 const make = "skateboard";
 const model = "creature";
@@ -7,9 +6,14 @@ const year = 2020;
 const ownIt = true;
 const age = 2021 - year;
 
-console.log(make);
-console.log(model);
-console.log(color);
-console.log(year);
-console.log(ownIt);
-console.log(age);
+document.writeIn("Make: " + make);
+document.writeIn("Model: " + model);
+document.writeIn("Color: " + color);
+document.writeIn("Year: " + year);
+if (ownIt) {
+  document.writeIn("Owns it?: yes");
+}
+else {
+  document.writeIn("Owns it?: no");
+}
+document.writeIn("Age: " + age);
