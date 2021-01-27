@@ -7,15 +7,16 @@ const ownIt = true;
 const age = 2021 - year;
 
 //writes in document
-document.writeIn("Make: " + make + "<br>");
-document.writeIn("Model: " + model + "<br>");
-document.writeIn("Color: " + color + "<br>");
-document.writeIn("Year: " + year + "<br>");
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
 //if-else statement :)
 if (ownIt) {
-  document.writeIn("Owns it?: yes" + "<br>");
+  document.writeln("Owns it?: yes" + "<br>");
 } else {
-  document.writeIn("Owns it?: no" + "<br>");
+  document.writeln("Owns it?: no" + "<br>");
 }
 
-document.writeIn("Age: " + age + "<br>");
+document.writeln("Age: " + age + "<br>");
+console.log("test");
