@@ -2,14 +2,21 @@ img {
   display: block;
   float: right;
 }
+
 body {
+  font-family: georgia, serif;
+  background-color: #ffc3ad;
   margin-top: 20px;
   border-spacing: inherit;
   margin-left: 20px;
   margin-right: 20px;
   border: solid;
-  border-style: inset;
+  border-color: #a3ff9e;
   outline: solid;
   outline-style: inset;
-  border-spacing: inherit;
+}
+#content{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
