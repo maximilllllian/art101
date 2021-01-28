@@ -3,5 +3,13 @@ img {
   float: right;
 }
 body {
+  margin-top: 20px;
+  border-spacing: inherit;
   margin-left: 20px;
+  margin-right: 20px;
+  border: solid;
+  border-style: inset;
+  outline: solid;
+  outline-style: inset;
+  border-spacing: inherit;
 }
