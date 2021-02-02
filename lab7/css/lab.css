@@ -1,0 +1,22 @@
+img {
+  display: block;
+  float: right;
+}
+
+main {
+  font-family: georgia, serif;
+  background-color: #42c8f5;
+  margin-top: 20px;
+  border-spacing: inherit;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid;
+  border-color: #a3ff9e;
+  outline: solid;
+  outline-style: double;
+}
+#content {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
