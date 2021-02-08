@@ -1,13 +1,13 @@
 //create three functions that take a parameter test
 //test 1 -- call functions in order
 function firstThing(test) {
-  document.writeln(test + ": First Thing <br>")
+  console.log(test + ": First Thing <br>")
 }
 function secondThing(test) {
-  document.writeln(test + ": Second Thing <br>")
+  console.log(test + ": Second Thing <br>")
 }
 function thirdThing(test) {
-  document.writeln(test + ": Third Thing <br>")
+  console.log(test + ": Third Thing <br>")
 }
 firstThing("Test 1");
 secondThing("Test 1");
