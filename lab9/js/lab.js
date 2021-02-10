@@ -12,4 +12,11 @@ document.body.appendChild(new2El);
 //change HTML attribute to say 'this is a new element'
 //change HTML attribute to say 'this is a new new element'
 new1El.innerHTML = 'this is a new element';
-new2El.innerHTML = 'this is a new new element';
+new2El.innerHTML = 'this is also a new element';
+new1El.style.color = 'maroon';
+document.getElementById('name').style.color = 'teal';
+
+//bonus task
+var upperEl = document.getElementById('main');
+upperEl.innerHTML = 'this is the bonus task';
+document.body.insertBefore(upperEl, null);
