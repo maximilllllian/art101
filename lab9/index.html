@@ -3,17 +3,20 @@
   <head>
 	   <title>Lab 9: Javascript for the Web</title>
 	   <link rel='stylesheet' type='text/css' href='css/lab.css'>
-     <script src = "js/lab.js"></script>
+     <script src = "js/lab.js" defer></script>
   </head>
-	<body>
+	<body id = 'main'>
 		<div id ='output'>
 			<h1>Lab 9: Javascript for the Web</h1>
-			<p id ='bread'>Working with a partner, experiment with DOM manipulation.</p>
+			<p id='bread'>Working with a partner, experiment with DOM manipulation.</p>
 			<h2>- Challenges -</h2>
-			<p id ='cheese'></p>
+			<p id='cheese'>One of the challenges we faced in the beginning was finding our output and assigning it
+        to variable outputEl because of issues with capitalization we discovered by looking at the console.</p>
 			<h2>- Problems -</h2>
-			<p id ='crackers'></p>
-			<h2>- Results -</h2>
+			<p id='crackers'> Our biggest problem was appending both new elements using appendChild() to our output div,
+        we were made aware that this was the source of our issue by looking at the console. We tried adjusting many
+        things in the console and searched on the web for solutions</p>
+			<h2 id = 'name'>- Results -</h2>
 			<p id ='potatoes'></p>
 		</div>
 	</body>
