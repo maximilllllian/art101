@@ -22,12 +22,3 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.special {
-  background-color: yellow;
-  font-family: fantasy, papyrus;
-  border-style: double;
-}
-
-.challenge-button {
-    background-color: turquoise;
-}

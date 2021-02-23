@@ -11,9 +11,9 @@ function sortingHat (str) {
   if (mod == 0) {
     return "Gryffindor. Gryffindor values bravery, daring, nerve, and chivalry. Its emblematic animal is the lion, and its colors are scarlet and gold.";
     } else if (mod == 1){
-    return "Ravenclaw. ";
+    return "Ravenclaw. Ravenclaw values intelligence, knowledge, curiosity, creativity and wit. Its emblematic animal is the eagle.";
     } else if (mod == 2){
-    return "Slytherin";
+    return "Slytherin. Slytherin House values ambition, leadership, self-preservation, cunning and resourcefulness and was founded by Salazar Slytherin. Its emblematic animal is the serpent.";
     } else if (mod == 3){
     return "Hufflepuff. Hufflepuff values hard work, dedication, patience, loyalty, and fair play. Its emblematic animal is the badger.";
     };
