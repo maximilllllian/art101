@@ -257,7 +257,7 @@ jQuery.fn.timelinr = function(options){
           // start again timer on mouse out
           timer = setInterval(autoPlay, settings.autoPlayPause);
         });
-        
+
       }
     }
   });
