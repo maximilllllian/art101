@@ -14,6 +14,7 @@ resultsDiv.append('<button id = results-button>Click me!</button>');
 //Event listeners
 $('#challenge-button').click(function(){
   $('#challenge').toggleClass('special');
+  debugger;
   $('#problems-button').toggleClass('challenge-button');
 });
 

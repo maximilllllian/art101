@@ -10,14 +10,42 @@
   <body>
     <h1>Political Buzzword Bank<h1>
     <nav>
-      <ul>
-        <li class="buzzWord" id="snowflake"><a href="snowflake/snowflake.html">Snowflake</a></li>
-        <li class="buzzWord" id="identity"><a href="identity politics/identitypolitics.html">Identity Politics</a></li>
-        <li class="buzzWord" id="silent"><a href="silent majority/silentmajority.html">Silent Majority</a></li>
-        <li class="buzzWord" id="woke"><a href="woke/woke.html">Woke</a></li>
-        <li class="buzzWord" id="rigged"><a href="rigged/rigged.html">Rigged</a></li>
+        <button id="myButton" class="btn green" >Snowflake</button>
 
-      </ul>
+            <script type="text/javascript">
+                document.getElementById("myButton").onclick = function () {
+                    location.href = "snowflake/snowflake.html";
+                };
+            </script>
+          <button id="myButton1" class ="btn green" >Rigged</button>
+
+            <script type="text/javascript">
+                document.getElementById("myButton1").onclick = function () {
+                    location.href = "rigged/rigged.html";
+                };
+            </script>
+            <button id="myButton2" class="btn green" >Silent Majority</button>
+
+              <script type="text/javascript">
+                  document.getElementById("myButton2").onclick = function () {
+                      location.href = "silent majority/silentmajority.html";
+                  };
+              </script>
+              <button id="myButton3" class="btn green" >Woke</button>
+
+                <script type="text/javascript">
+                    document.getElementById("myButton3").onclick = function () {
+                        location.href = "woke/woke.html";
+                    };
+                </script>
+                <button id="myButton4" class="btn green" >Identity Politics</button>
+
+                  <script type="text/javascript">
+                      document.getElementById("myButton4").onclick = function () {
+                          location.href = "identity politics/identitypolitics.html";
+                      };
+                  </script>
+
     </nav>
 
   </body>
