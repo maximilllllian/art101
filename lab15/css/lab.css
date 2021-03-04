@@ -1,0 +1,28 @@
+h1 {
+  text-shadow: 3px 3px 3px white;
+}
+h2 {
+  text-shadow: 3px 3px 3px white;
+}
+main {
+  font-family: verdana, sans-serif;
+}
+body {
+  background-color: #C2DFFF;
+  border: solid;
+  border-color: black;
+  outline: solid;
+  outline-style: inset;
+  padding: 10px 10px 10px 10px;
+}
+#content {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#output {
+  border: red 1px solid;
+  min-height: 200px;
+  margin-top: 10px;
+}
