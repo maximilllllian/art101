@@ -1,18 +1,19 @@
 h1 {
   text-shadow: 3px 3px 3px white;
+  color: grey;
 }
 h2 {
   text-shadow: 3px 3px 3px white;
+  color: grey;
 }
 main {
   font-family: verdana, sans-serif;
 }
 body {
-  background-color: #C2DFFF;
+  background-color: #8cfff9;
   border: solid;
-  border-color: black;
-  outline: solid;
-  outline-style: inset;
+  border-color: grey;
+  border-width: thick;
   padding: 10px 10px 10px 10px;
 }
 #content {
