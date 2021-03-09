@@ -2,7 +2,7 @@
 //March 8, 2021
 
 // Using the core $.ajax() method
-var comicObj = {};
+var comicObj = {}; 
 
 function getAndPutData(apiURL){$.ajax({
     // The URL for the request (from the api docs)
